@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <title>VA3HDL Ham Radio Dashboard</title>
+    <title>SFO Dashboard</title>
     <!--
 	Hamdash
 	License: MIT
@@ -335,7 +335,7 @@ db   8D Y8b  d8 88 `88.   .88.   88         88    db   8D
 
     async function getLatestVersion() {
       try {
-        const response = await fetch('https://api.github.com/repos/VA3HDL/hamdashboard/releases/latest');
+        const response = await fetch('https://api.github.com/repos/captainwasabi/dashboard/releases/latest');
         const data = await response.json();
         return data.tag_name;
       } catch (error) {
@@ -431,7 +431,7 @@ db   8D Y8b  d8 88 `88.   .88.   88         88    db   8D
         document.getElementById("array2").innerHTML = "<br>" + formatArray(aIMG) + "<br>";
         document.getElementById("overlay").style.display = "block";
       } else if (aURL[num][1].toLowerCase() == "update") {
-        window.open("https://github.com/VA3HDL/hamdashboard/releases/", "_blank").focus();
+        window.open("https://github.com/captainwasabi/dashboard/releases/", "_blank").focus();
       }
     }
 
