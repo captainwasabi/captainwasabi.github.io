@@ -86,9 +86,9 @@ const aIMG = [
     "https://www.blitzortung.org/en/Images/image_b_ny.png",
   ],
   ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
-  [],
-  [],
-  [],
+  ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
+  ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
+  ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
 ];
 
 // Image rotation intervals in milliseconds per tile - If the line below is commented, all tiles will be rotated every 30000 milliseconds (30s)
